@@ -19,8 +19,10 @@ ext {
     java_version = 25
 }
 
-def loader_major_version = loader_version.tokenize(".")[0]
-def loader_version_range = "^${loader_major_version}.0.0"
+def loader_major_version = loader_version.tokenize(".")[0].toInteger()
+def next_major_version = loader_major_version + 1
+
+def loader_version_range = ">=${loader_version} <${next_major_version}.0.0"
 
 group = "com.example"
 version = "1.0.0"
