@@ -1,0 +1,14 @@
+// Importing Fabric's Plugin Repository.
+pluginManagement {
+    repositories {
+        maven {
+            name = "Fabric"
+            url = "https://maven.fabricmc.net/"
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+// Change this to be the same as your addon ID.
+rootProject.name = "strider-example-addon"

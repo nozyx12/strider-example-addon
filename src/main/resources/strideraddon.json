@@ -1,0 +1,14 @@
+{
+  "id": "${id}",
+  "name": "Strider Example Addon",
+  "version": "${version}",
+  "description": "An example addon for StriderLoader",
+  "author": "Some nice guy!",
+  "side": "common",
+  "addonClass": "com.example.ExampleAddon",
+  "dependencies": {
+    "striderloader": "${loader_version_range}",
+    "minecraft": "=${mc_version}",
+    "java": "<=${java_version}"
+  }
+}
