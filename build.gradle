@@ -8,7 +8,7 @@ plugins {
 ext {
     // What StriderLoader version will your addon use.
     // ( I recommend using the latest version for the latest features and Minecraft version support )
-    loader_version = "1.1.0"
+    loader_version = "1.2.0"
 
     // What Minecraft version your addon is compatible with.
     // ( Make sure this version is supported by the selected StriderLoader version )
@@ -16,6 +16,7 @@ ext {
 
     // What major Java version your addon will be compiled with.
     // ( Use a Java version compatible with your targeted Minecraft version )
+    // ( Must be at least the Java version supported by StriderLoader; currently Java 25 )
     java_version = 25
 }
 

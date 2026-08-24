@@ -9,6 +9,7 @@
   "dependencies": {
     "striderloader": "${loader_version_range}",
     "minecraft": "=${mc_version}",
-    "java": "<=${java_version}"
+    "java": "<=${java_version}",
+    "strider-resource-bridge": "*"
   }
 }
