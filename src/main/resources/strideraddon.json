@@ -4,7 +4,7 @@
   "version": "${version}",
   "description": "An example addon for StriderLoader",
   "author": "Some nice guy!",
-  "side": "common",
+  "side": "${mc_side}",
   "addonClass": "com.example.ExampleAddon",
   "dependencies": {
     "striderloader": "${loader_version_range}",

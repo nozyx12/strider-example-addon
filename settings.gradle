@@ -1,9 +1,9 @@
-// Importing Fabric's Plugin Repository.
+// Importing Nozyx's Maven Repository.
 pluginManagement {
     repositories {
         maven {
-            name = "Fabric"
-            url = "https://maven.fabricmc.net/"
+            name = "nozyx"
+            url = "https://maven.nozyx.dev/"
         }
         mavenCentral()
         gradlePluginPortal()

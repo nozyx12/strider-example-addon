@@ -17,12 +17,12 @@ To configure your addon, take a look at:
 - [`settings.gradle`](./settings.gradle) — configure the project name and other Gradle project settings.
 - [`src/main/resources/strideraddon.json`](./src/main/resources/strideraddon.json) — configure your addon's metadata.
 
-The following values in `strideraddon.json` are automatically filled in by Gradle when the addon is built:
+The following values in `strideraddon.json` are automatically filled in by Strider Saddle when the addon is built:
 
 - `${id}` — the addon's ID, automatically retrieved from `rootProject.name` in `settings.gradle`.
 - `${version}` — the addon's version.
 - `${loader_version_range}` — the StriderLoader version range, automatically retrieved from
-  `project.ext.loader_version`,
+  `saddle.loader_version`,
   making the addon compatible with the selected StriderLoader major version.
 - `${mc_version}` — the targeted Minecraft version.
 - `${java_version}` — the Java version used to compile the addon.
